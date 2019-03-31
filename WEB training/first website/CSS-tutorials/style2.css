@@ -1,0 +1,21 @@
+h2{
+	color: blue;
+}
+
+.boxmodel{
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px; /* top, right, bottom, left*/
+	margin: 0px 20px; /* first is top and bottom, the second is left and right*/
+	width: 20px; /* will change the "content" part of the box model / the inside where the text is*/
+	height: 30px;
+}
+
+p{
+	font-size: 20px;
+}
+
+span {
+	font-size: 5em; /* means that it will change according to the pixel size of the parrent text, so 5em is 5 times larger than 20px */
+	
+}

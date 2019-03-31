@@ -1,0 +1,62 @@
+/* selector {
+	property: value;
+} */
+
+* { /* '*' is used to select all ellements and are usually placed at the top */ 
+	text-align: center;
+}
+
+body{
+	background-color: white; 
+	/*background-image: url(walking-cycle.jpg); */
+	background-size: cover; /* makes the background image fit the screen */
+}
+
+h2 + p{
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer; /* changes the pointer when the mouse is hovering over the selector */
+}
+
+p{
+	color: green;
+	/*text-decoration: underline; /* underlines the text. Could also use linethrough */ */
+	/*text-transform: uppercase; */
+	line-height: 20px; /* defines the spacing between lines */ 
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	/*font-family: Georgia; /* or: "Times New Roman", would have to be in "" since it is several words; */ 
+	font-family: 'Lora', serif;
+}
+
+img{
+	float: left;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+li{
+	list-style: none; /* removes the dots in front of the points */ 
+	display: inline-block;
+}
+
+.webtext:last-child {
+	border: 5px dashed purple;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2);
+}

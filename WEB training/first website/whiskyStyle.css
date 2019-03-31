@@ -1,0 +1,63 @@
+* { 
+	text-align: center;
+	background-color: rgba(187, 170, 153, 1);
+} 
+
+img {
+	float: center;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: black;
+	color: black;
+}
+
+tr, th{
+	border: 2px solid black;
+	text-align: left;
+	background-color: white;
+}
+
+.title{
+	font-size: 40px;
+	color: red;
+}
+
+#table-firstElement{
+	color: red;
+}
+
+
+#whiskeyName{
+	font-size: 30px;
+	color: blue;
+}
+
+#tags{
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+}
+
+#note {
+
+}
+
+#priceText{
+
+}
+
+.price{
+	color: red;
+}
+
+.status{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.statusText{
+	font-size: 20px;
+}
+
