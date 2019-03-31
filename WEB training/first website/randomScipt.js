@@ -391,3 +391,5 @@ for (item of basket) {
 for (item in detailedBasket) {
 	console.log(item);
 }
+
+//git test
